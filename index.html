@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zaman Ayarlı Bilgisayar Kapatma Programı</title>
+    <!-- javascript -->
+    <script src="kaynak.js"></script>
+    <!-- css -->
+    <link rel="stylesheet" href="main.css">
+    <!-- Boostrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/f0b82e9e29.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="content">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Bilgisayarı Geri Sayım ile Kapatma Programı</h2>
+                </div>
+                <div class="col-md-12">
+                    <h5>Kaç saniye sonra bilgisayar kapatılsın</h5>
+                </div>
+                <div class="col-md-12">
+                    
+                    <div class="input-group">
+                       
+                        <textarea id="yazıAlanı" class="form-control"></textarea>
+                        <div class="input-group-append">
+                            <button id="ekle" class="btn btn-primary btn-add" type="button" onclick="bilgisayarKapatZamanlayıcı()"><i class="fas fa-plus"></i></button>
+                            <button id="durdur" class="btn btn-primary btn-warning" type="button" onclick="zamanlayıcıDurdur()"><i class="fas fa-minus"></i></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <h6>Saniye ayarlamak için "+" butonuna</h6>
+                    <h6>Geri sayımı iptal etmek için "-" butonuna basınız</h6>
+                    <h1 id="gösterge">00</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

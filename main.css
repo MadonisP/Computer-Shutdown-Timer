@@ -1,0 +1,51 @@
+body{
+    background-color: #424242 !important;
+    text-align: center;
+}
+h1{
+    color:#fff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px !important;
+    text-align: center;
+    letter-spacing: 5px;
+}
+h2{
+    color:#fff;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px !important;
+    text-align: center;
+}
+
+h5{
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+h6{
+    color:#fff;
+    font-family: 'Montserrat', cursive;
+    font-size: 15px !important;
+    text-align: center;
+}
+
+
+p,textarea{
+    
+    font-family: 'Montserrat', sans-serif !important;
+    font-style: oblique;
+}
+
+.content{
+    width: 80%;
+    height: 80%;
+    position: absolute;
+    top:20%;
+    left: 10%;
+}
+
+.btn-add{
+    padding: 10px 30px !important;
+    font-size: 30px !important;
+}
